@@ -1,0 +1,23 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.day {
+	margin-top: 10px;
+	width: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+
+
