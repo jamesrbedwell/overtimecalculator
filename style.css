@@ -1,23 +1,139 @@
+
 body {
-	font-family: Helvetica, sans-serif;
+	display: grid;
+	grid-template-column: 1fr; 
+	background: #0B0C10;
+	font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
+hr {
+	width: 100%;
+	color: #1F2833;
+}
+
+header {
+	display: grid;
+	grid-template-column: 1fr;
+	width: 100%;
+	color: #66FCF1;
 	text-transform: uppercase;
-	margin-bottom: 0px;
+}
+
+main {
+	margin-top: 5px;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-left: 5%;
+}
+
+header h1 {
+	display: grid;
+	margin: 0;
+	font-size: 100px;
+	letter-spacing: -5px;
+	grid-column: 1 / 2;
+	justify-items: center;
+	font-weight: 900;
+}
+
+header h3 {
+	margin: 0;
+	margin-top: -10px;
+	display: grid;
+	font-weight: 100;
+	grid-column: 1 / 2;
+	justify-items: center;
+	color: #45A29E;
 }
 
 .day {
-	margin-top: 10px;
+	margin: 0 0 5px 0;
+	padding-left: 10px;
 	width: 200px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 10px;
 }
 
+main h3 {
+	color: #C5C6C7;
+	text-transform: uppercase;
+	margin: 0;
+	grid-column: 1 / 4;
+	font-weight: 400;
+	font-style: italic;
+}
+
 p {
 	margin: 0;
+	color: #C5C6C7;
+	font-weight: 100;
+	font-size: 12px;
+	text-transform: uppercase;
 }
+
+input {
+	border: 2px solid #45A29E;
+	border-radius: 10px;
+	background-color: #1F2833;
+	color: #C5C6C7;
+	font-size: 1em;
+	padding-left: 10px;
+	width: 75px;
+	outline: none;
+}
+
+input:focus {
+	border: 2px solid #66FCF1
+}
+
+.totals {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	color: #66FCF1;	
+	align-items: center;
+}
+
+.totals h4 {
+	margin: 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 1px solid #1F2833;
+	padding: 5px 10px;
+}
+
+.totals h4 span {
+	font-weight: 400;
+	color: #C5C6C7;
+	padding-left: 5px;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}
+
+button {
+	margin-top: 10px;
+	background-color: #45A29E;
+	border: 2px solid #66FCF1;
+	border-radius: 25px;
+	color: #C5C6C7;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px 20px;
+	font-weight: 400;
+	outline: none;
+}
+
+button:hover {
+	background-color: #1F2833;
+	cursor: pointer;
+}
+
+
 
 
 

@@ -1,0 +1,48 @@
+#0B0C1O - off black
+#1F2833 - dark blue
+#C5C6C7 - light grey
+#66FCF1 - turq
+#45A29E - dark turq
+
+		<div class="hours" id="mondayHours">
+			<p>Total Hours: <span id="monTOT"></span></p>
+			<p>Standard Hours: <span id="monST"></span></p>
+			<p>OT Hours: <span id="monOT"></span></p>
+			<p>DT Hours: <span id="monDT"></span></p>
+		</div>
+		<div class="hours" id="tuesdayHours">
+			<p>Total Hours: <span id="tueTOT"></span></p>
+			<p>Standard Hours: <span id="tueST"></span></p>
+			<p>OT Hours: <span id="tueOT"></span></p>
+			<p>DT Hours: <span id="tueDT"></span></p>
+		</div>
+		<div class="hours" id="wednesdayHours">
+			<p>Total Hours: <span id="wedTOT"></span></p>
+			<p>Standard Hours: <span id="wedST"></span></p>
+			<p>OT Hours: <span id="wedOT"></span></p>
+			<p>DT Hours: <span id="wedDT"></span></p>
+		</div>
+		<div class="hours" id="thursdayHours">
+			<p>Total Hours: <span id="thuTOT"></span></p>
+			<p>Standard Hours: <span id="thuST"></span></p>
+			<p>OT Hours: <span id="thuOT"></span></p>
+			<p>DT Hours: <span id="thuDT"></span></p>
+		</div>
+		<div class="hours" id="fridayHours">
+			<p>Total Hours: <span id="friTOT"></span></p>
+			<p>Standard Hours: <span id="friST"></span></p>
+			<p>OT Hours: <span id="friOT"></span></p>
+			<p>DT Hours: <span id="friDT"></span></p>
+		</div>
+		<div class="hours" id="saturdayHours">
+			<p>Total Hours: <span id="satTOT"></span></p>
+			<p>Standard Hours: <span id="satST"></span></p>
+			<p>OT Hours: <span id="satOT"></span></p>
+			<p>DT Hours: <span id="satDT"></span></p>
+		</div>
+		<div class="hours" id="sundayHours">
+			<p>Total Hours: <span id="sunTOT"></span></p>
+			<p>Standard Hours: <span id="sunSt"></span></p>
+			<p>OT Hours: <span id="sunOT"></span></p>
+			<p>DT Hours: <span id="sunDT"></span></p>
+		</div>
