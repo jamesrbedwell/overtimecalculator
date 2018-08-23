@@ -182,6 +182,8 @@ var oneFiftyHourCalc = function(hours, start, end) {
 		return hours - 8;
 	} else if (hours > 0 && start < 6 && start > 4 && startPlus2 < 8) {
 		return 6 - start;
+	} else if (hours > 8 && hours > 10 && start >= 6) {
+		return 2;
 	} else {
 		return 0;
 	}
